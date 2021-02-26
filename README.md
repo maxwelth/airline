@@ -47,7 +47,7 @@ After made sure every feature was scaled and had no missing value, the data was 
 
 ## Tuned Model
 
-Based on the result of the previous model performance, *SVM (rbf) - non PCA* was selected. Then, the hyperparameters were tuned by using _GridSearchCV_ with 5-fold cross validation (best params result: C=1, gamma=0.1). When the tuned model applied to the test data, the accuracy score yield a result of 95.99%, which is 0.45% higher than the untuned one.
+Based on the result of the previous model performance, *SVM (rbf) - non PCA* was selected. Then, the hyperparameters were tuned by using _GridSearchCV_ with 5-fold cross validation (best params result: C=1, gamma=0.1). When the tuned model was applied to the test data, the accuracy score yield a result of 95.99%, which is 0.45% higher than the untuned one.
 
 _1 : satisfied, 0 : neutral or dissatisfied_
 ![](conf%20matrix.png)
